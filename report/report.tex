@@ -1,0 +1,138 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\geometry{left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{float}
+\pagestyle{fancy}
+\lhead{Team \#}
+\rhead{Page \thepage\ of \pageref{LastPage}}
+\cfoot{}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{pdfpages}
+\usepackage{listings}
+	\lstset{
+		basicstyle=\tt,
+		%行号
+		numbers=left,
+		rulesepcolor=\color{red!20!green!20!blue!20},
+		escapeinside=``,
+		xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+		%背景框
+		framexleftmargin=1.5mm,
+		frame=shadowbox,
+		%背景色
+		backgroundcolor=\color[RGB]{245,245,244},
+		%样式
+		keywordstyle=\color{blue}\bfseries,
+		identifierstyle=\bf,
+		numberstyle=\color[RGB]{20,20,20},
+		commentstyle=\it\color[RGB]{96,96,96},
+		stringstyle=\rmfamily\slshape\color[RGB]{128,0,0},
+		%显示空格
+		showstringspaces=false,
+		breaklines=true
+	}
+
+\usepackage{xcolor}
+
+\begin{document}
+%	\includepdf{2017Summary.pdf}
+	\newpage
+	\tableofcontents
+	\newpage
+\section{Introduction}
+%content here
+	\subsection{Restatement of the tasks}
+	%content here
+	%\begin{itemize}
+	%\end{itemize}
+	%\subsection{Related Concepts}
+\section{Assumption and Notations}
+	\subsection{Assumptions and Justifications}
+    %content here
+
+
+	\subsection{Notations}
+	%content here
+    All the variables used in this paper are listed in Table \ref{t1}.
+
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{lll}
+    \toprule
+		Symbol & Definition & Units \\
+		\midrule
+	%content here
+    \bottomrule
+    \end{tabular}
+    \caption{Symbol Table.}
+    \label{t1}
+    \end{table}
+
+\section{Model Design and Justification}
+	%content here
+\section{Results}
+	%content here
+\section{Sensitivity Analysis}
+	
+\section{Strengths and Weaknesses}
+	\subsection{Strengths}
+	%\begin{itemize}
+		%content here
+	%\end{itemize}
+	\subsection{Weakness}
+	%\begin{itemize}
+		%content here
+	%\end{itemize}
+
+
+
+
+
+
+	\newpage
+
+	\begin{thebibliography}{0}
+		\bibitem{stopping} Neilsen, Joel. ``Stopping Distance", Safe Drive Training,  \url{<http://sdt.com.au/safedrive-directory-STOPPINGDISTANCE.htm>.} Accessed 21 January 2017.
+		\bibitem{} Shiffman, Daniel. ``Cellular Automata", \textit{The Nature of Code}, Lightning Source Inc, 2008. 323-354. Print.
+		\bibitem{phantom} Stromberg, Joseph. ``Why do traffic jams sometimes form for no reason?", Vox, \url{< http://www.vox.com/2014/11/24/7276027/traffic-jam>.} Accessed 22 January 2017.
+		\bibitem{acc} Consumer Reports, ``Best \& Worst Car Acceleration", Consumer Reports, \url{<http://www.consumerreports.org/cro/news/2012/05/best-worst-acceleration/index.htm>.} Accessed 23 January 2017.
+	\end{thebibliography}
+
+
+
+
+
+
+
+
+	\newpage
+
+\section*{Appendix}
+%\subsection*{CMakeLists.txt}
+%\lstset{language=CMake}
+%\lstinputlisting{../CMakeLists.txt}
+
+
+%\subsection*{C++ Code}
+%\lstset{language=C++}
+%\lstinputlisting{../src/mcm.h}
+
+
+%\subsection*{MATLAB Code}
+%\lstset{language=Matlab}
+%\lstinputlisting{../matlab/readData.m}
+
+
+
+\end{document}
+
