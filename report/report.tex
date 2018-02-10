@@ -12,7 +12,7 @@
 \usepackage{lastpage}
 \usepackage{float}
 \pagestyle{fancy}
-\lhead{Team \#}
+\lhead{Team \#76352}
 \rhead{Page \thepage\ of \pageref{LastPage}}
 \cfoot{}
 \usepackage{hyperref}
@@ -45,20 +45,45 @@
 \usepackage{xcolor}
 
 \begin{document}
-%	\includepdf{2017Summary.pdf}
+%	\includepdf{2018Summary.pdf}
 	\newpage
 	\tableofcontents
 	\newpage
 \section{Introduction}
-%content here
+A:High frequency wave can travel long distance by reflecting back and force from the ground and the ionosphere. The energy of the wave will be attenuated during the process of the propagation especially when the wave is reflected by the ionosphere and the surface of the ground or the sea. It is commonly acknowledged that the reflection on a turbulence ocean surface will cause larger energy loss while compared with the loss of energy in the reflection on calm sea, which may be due to the variation of height, reflection angle, and local permeability of the ocean surface. Therefore, it is worthy of detailed analysis how much difference lies between these two situations.
+
+%E:Climate change has caused an increased frequency of natural disasters. These disasters have posted influences on humans' behaviors, thus increasing the fragility of the countries. However, many factors are taken into consideration while we calculate the fragility of a countries' government. Therefore, it is worthy of analysis which factors in fragility will be affected by climate change to a greater extent, and how this model will help predict the impact of the change in climate on the change of fragility. 
 	\subsection{Restatement of the tasks}
-	%content here
-	%\begin{itemize}
-	%\end{itemize}
+	Our basic task is to establish a model simulating the change of the countries' fragility based on the change in climate factors.
+	\begin{itemize}
+	\item 
+	Construct a model which can simulate the multi-hop process between the ionosphere and the sea surface.
+	\item
+	Construct a model of a turbulent sea surface
+	\end{itemize}
+	
+	
 	%\subsection{Related Concepts}
 \section{Assumption and Notations}
 	\subsection{Assumptions and Justifications}
-    %content here
+    To focus on the main problem, we make the following well-justified assumptions.
+    %E:
+    \begin{itemize}
+    \item 
+    E\textbf{We represent climate change as + +.}
+    \item
+    E\textbf{Climate change has almost even impact on all regions of the world.} Climate change is a global trend. Although it may cause severe disasters in certain regions of the world during a certain period, these disasters will just result in regional increase of fragility, which are not representative while they are compared with a global trend of the change in fragility. Thus, we can assume an even impact of climate change
+    \end{itemize}
+	
+	\begin{itemize}
+    \item
+    A\textbf{The scenario of skip fading is not considered.} Skip fading happens during sunrise and sunset when the frequency of the wave is near maximum usable frequency. The wave will fade and lead to the fluctuations in the ionosphere. [*******cite %http://www.sws.bom.gov.au/Category/Educational/Other%20Topics/Radio%20Communication/Intro%20to%20HF%20Radio.pdf]
+    \item
+    A?\textbf{The height of the ionosphere form the ground where the HF wave is reflected is set to be ....????km.} HF signals are mostly attenuated and reflected in F2 region of ionosphere.
+    \item
+    A?\textbf{The loss of energy of the waves when they propagate in the air is neglected.}
+    \end{itemize}
+
 
 
 	\subsection{Notations}
